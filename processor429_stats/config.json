@@ -108,7 +108,7 @@
             "path": "system.voltage_domain", 
             "type": "VoltageDomain"
         }, 
-        "cache_line_size": 256, 
+        "cache_line_size": 16, 
         "boot_osflags": "a", 
         "system_port": {
             "peer": "system.membus.slave[0]", 
@@ -272,7 +272,7 @@
                             "assoc": 2, 
                             "cxx_class": "SetAssociative", 
                             "path": "system.cpu.dtb_walker_cache.tags.indexing_policy", 
-                            "entry_size": 256, 
+                            "entry_size": 16, 
                             "type": "SetAssociative", 
                             "size": 1024
                         }, 
@@ -283,8 +283,8 @@
                         "cxx_class": "BaseSetAssoc", 
                         "p_state_clk_gate_max": 1000000000000, 
                         "path": "system.cpu.dtb_walker_cache.tags", 
-                        "entry_size": 256, 
-                        "block_size": 256, 
+                        "entry_size": 16, 
+                        "block_size": 16, 
                         "type": "BaseSetAssoc", 
                         "size": 1024
                     }, 
@@ -354,7 +354,7 @@
                             "assoc": 1, 
                             "cxx_class": "SetAssociative", 
                             "path": "system.cpu.icache.tags.indexing_policy", 
-                            "entry_size": 256, 
+                            "entry_size": 16, 
                             "type": "SetAssociative", 
                             "size": 16384
                         }, 
@@ -365,8 +365,8 @@
                         "cxx_class": "BaseSetAssoc", 
                         "p_state_clk_gate_max": 1000000000000, 
                         "path": "system.cpu.icache.tags", 
-                        "entry_size": 256, 
-                        "block_size": 256, 
+                        "entry_size": 16, 
+                        "block_size": 16, 
                         "type": "BaseSetAssoc", 
                         "size": 16384
                     }, 
@@ -450,7 +450,7 @@
                             "assoc": 2, 
                             "cxx_class": "SetAssociative", 
                             "path": "system.cpu.itb_walker_cache.tags.indexing_policy", 
-                            "entry_size": 256, 
+                            "entry_size": 16, 
                             "type": "SetAssociative", 
                             "size": 1024
                         }, 
@@ -461,8 +461,8 @@
                         "cxx_class": "BaseSetAssoc", 
                         "p_state_clk_gate_max": 1000000000000, 
                         "path": "system.cpu.itb_walker_cache.tags", 
-                        "entry_size": 256, 
-                        "block_size": 256, 
+                        "entry_size": 16, 
+                        "block_size": 16, 
                         "type": "BaseSetAssoc", 
                         "size": 1024
                     }, 
@@ -665,7 +665,7 @@
                             "assoc": 1, 
                             "cxx_class": "SetAssociative", 
                             "path": "system.cpu.dcache.tags.indexing_policy", 
-                            "entry_size": 256, 
+                            "entry_size": 16, 
                             "type": "SetAssociative", 
                             "size": 16384
                         }, 
@@ -676,8 +676,8 @@
                         "cxx_class": "BaseSetAssoc", 
                         "p_state_clk_gate_max": 1000000000000, 
                         "path": "system.cpu.dcache.tags", 
-                        "entry_size": 256, 
-                        "block_size": 256, 
+                        "entry_size": 16, 
+                        "block_size": 16, 
                         "type": "BaseSetAssoc", 
                         "size": 16384
                     }, 
@@ -736,7 +736,7 @@
             "response_latency": 20, 
             "cxx_class": "Cache", 
             "write_allocator": null, 
-            "size": 524288, 
+            "size": 4194304, 
             "type": "Cache", 
             "clk_domain": "system.cpu_clk_domain", 
             "max_miss_count": 0, 
@@ -766,9 +766,9 @@
                     "assoc": 1, 
                     "cxx_class": "SetAssociative", 
                     "path": "system.l2.tags.indexing_policy", 
-                    "entry_size": 256, 
+                    "entry_size": 16, 
                     "type": "SetAssociative", 
-                    "size": 524288
+                    "size": 4194304
                 }, 
                 "system": "system", 
                 "sequential_access": false, 
@@ -777,10 +777,10 @@
                 "cxx_class": "BaseSetAssoc", 
                 "p_state_clk_gate_max": 1000000000000, 
                 "path": "system.l2.tags", 
-                "entry_size": 256, 
-                "block_size": 256, 
+                "entry_size": 16, 
+                "block_size": 16, 
                 "type": "BaseSetAssoc", 
-                "size": 524288
+                "size": 4194304
             }, 
             "tgts_per_mshr": 12, 
             "demand_mshr_reserve": 1, 
@@ -874,7 +874,7 @@
                 "tRAS": 35000, 
                 "static_frontend_latency": 10000, 
                 "devices_per_rank": 8, 
-                "range": "0:536870911:7:19:0:0", 
+                "range": "0:536870911:6:19:0:0", 
                 "mem_sched_policy": "frfcfs", 
                 "IDD2P12": 0.0, 
                 "device_rowbuffer_size": 1024, 

@@ -1,11 +1,11 @@
 
 ---------- Begin Simulation Statistics ----------
 final_tick                                84077331500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
-host_inst_rate                                1217288                       # Simulator instruction rate (inst/s)
-host_mem_usage                                 823316                       # Number of bytes of host memory used
-host_op_rate                                  1614071                       # Simulator op (including micro ops) rate (op/s)
-host_seconds                                    82.15                       # Real time elapsed on the host
-host_tick_rate                             1023453773                       # Simulator tick rate (ticks/s)
+host_inst_rate                                1106052                       # Simulator instruction rate (inst/s)
+host_mem_usage                                 818300                       # Number of bytes of host memory used
+host_op_rate                                  1466567                       # Simulator op (including micro ops) rate (op/s)
+host_seconds                                    90.41                       # Real time elapsed on the host
+host_tick_rate                              929924337                       # Simulator tick rate (ticks/s)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
 sim_insts                                   100000000                       # Number of instructions simulated
 sim_ops                                     132596798                       # Number of ops (including micro ops) simulated
@@ -79,8 +79,8 @@ system.cpu.dcache.tags.tag_accesses          63720314                       # Nu
 system.cpu.dcache.tags.tagsinuse          1020.423653                       # Cycle average of tags in use
 system.cpu.dcache.tags.total_refs            61980022                       # Total number of references to valid blocks.
 system.cpu.dcache.tags.warmup_cycle              1000                       # Cycle when the warmup percentage was hit.
-system.cpu.dcache.writebacks::.writebacks      1360862                       # number of writebacks
-system.cpu.dcache.writebacks::total           1360862                       # number of writebacks
+system.cpu.dcache.writebacks::.writebacks      1349727                       # number of writebacks
+system.cpu.dcache.writebacks::total           1349727                       # number of writebacks
 system.cpu.dtb.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
 system.cpu.dtb.rdAccesses                    48583059                       # TLB accesses on read requests
 system.cpu.dtb.rdMisses                        180957                       # TLB misses on read requests
@@ -260,36 +260,36 @@ system.cpu_clk_domain.clock                       500                       # Cl
 system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
 system.l2.ReadCleanReq_accesses::.cpu.inst         2403                       # number of ReadCleanReq accesses(hits+misses)
 system.l2.ReadCleanReq_accesses::total           2403                       # number of ReadCleanReq accesses(hits+misses)
-system.l2.ReadCleanReq_hits::.cpu.inst            239                       # number of ReadCleanReq hits
-system.l2.ReadCleanReq_hits::total                239                       # number of ReadCleanReq hits
-system.l2.ReadCleanReq_miss_rate::.cpu.inst     0.900541                       # miss rate for ReadCleanReq accesses
-system.l2.ReadCleanReq_miss_rate::total      0.900541                       # miss rate for ReadCleanReq accesses
-system.l2.ReadCleanReq_misses::.cpu.inst         2164                       # number of ReadCleanReq misses
-system.l2.ReadCleanReq_misses::total             2164                       # number of ReadCleanReq misses
+system.l2.ReadCleanReq_hits::.cpu.inst            230                       # number of ReadCleanReq hits
+system.l2.ReadCleanReq_hits::total                230                       # number of ReadCleanReq hits
+system.l2.ReadCleanReq_miss_rate::.cpu.inst     0.904286                       # miss rate for ReadCleanReq accesses
+system.l2.ReadCleanReq_miss_rate::total      0.904286                       # miss rate for ReadCleanReq accesses
+system.l2.ReadCleanReq_misses::.cpu.inst         2173                       # number of ReadCleanReq misses
+system.l2.ReadCleanReq_misses::total             2173                       # number of ReadCleanReq misses
 system.l2.ReadExReq_accesses::.cpu.data        662704                       # number of ReadExReq accesses(hits+misses)
 system.l2.ReadExReq_accesses::total            662704                       # number of ReadExReq accesses(hits+misses)
-system.l2.ReadExReq_hits::.cpu.data            176343                       # number of ReadExReq hits
-system.l2.ReadExReq_hits::total                176343                       # number of ReadExReq hits
-system.l2.ReadExReq_miss_rate::.cpu.data     0.733904                       # miss rate for ReadExReq accesses
-system.l2.ReadExReq_miss_rate::total         0.733904                       # miss rate for ReadExReq accesses
-system.l2.ReadExReq_misses::.cpu.data          486361                       # number of ReadExReq misses
-system.l2.ReadExReq_misses::total              486361                       # number of ReadExReq misses
+system.l2.ReadExReq_hits::.cpu.data            156969                       # number of ReadExReq hits
+system.l2.ReadExReq_hits::total                156969                       # number of ReadExReq hits
+system.l2.ReadExReq_miss_rate::.cpu.data     0.763139                       # miss rate for ReadExReq accesses
+system.l2.ReadExReq_miss_rate::total         0.763139                       # miss rate for ReadExReq accesses
+system.l2.ReadExReq_misses::.cpu.data          505735                       # number of ReadExReq misses
+system.l2.ReadExReq_misses::total              505735                       # number of ReadExReq misses
 system.l2.ReadSharedReq_accesses::.cpu.data      1077588                       # number of ReadSharedReq accesses(hits+misses)
 system.l2.ReadSharedReq_accesses::total       1077588                       # number of ReadSharedReq accesses(hits+misses)
-system.l2.ReadSharedReq_hits::.cpu.data        677607                       # number of ReadSharedReq hits
-system.l2.ReadSharedReq_hits::total            677607                       # number of ReadSharedReq hits
-system.l2.ReadSharedReq_miss_rate::.cpu.data     0.371182                       # miss rate for ReadSharedReq accesses
-system.l2.ReadSharedReq_miss_rate::total     0.371182                       # miss rate for ReadSharedReq accesses
-system.l2.ReadSharedReq_misses::.cpu.data       399981                       # number of ReadSharedReq misses
-system.l2.ReadSharedReq_misses::total          399981                       # number of ReadSharedReq misses
+system.l2.ReadSharedReq_hits::.cpu.data        630516                       # number of ReadSharedReq hits
+system.l2.ReadSharedReq_hits::total            630516                       # number of ReadSharedReq hits
+system.l2.ReadSharedReq_miss_rate::.cpu.data     0.414882                       # miss rate for ReadSharedReq accesses
+system.l2.ReadSharedReq_miss_rate::total     0.414882                       # miss rate for ReadSharedReq accesses
+system.l2.ReadSharedReq_misses::.cpu.data       447072                       # number of ReadSharedReq misses
+system.l2.ReadSharedReq_misses::total          447072                       # number of ReadSharedReq misses
 system.l2.WritebackClean_accesses::.writebacks         1444                       # number of WritebackClean accesses(hits+misses)
 system.l2.WritebackClean_accesses::total         1444                       # number of WritebackClean accesses(hits+misses)
 system.l2.WritebackClean_hits::.writebacks         1444                       # number of WritebackClean hits
 system.l2.WritebackClean_hits::total             1444                       # number of WritebackClean hits
-system.l2.WritebackDirty_accesses::.writebacks      1360862                       # number of WritebackDirty accesses(hits+misses)
-system.l2.WritebackDirty_accesses::total      1360862                       # number of WritebackDirty accesses(hits+misses)
-system.l2.WritebackDirty_hits::.writebacks      1360862                       # number of WritebackDirty hits
-system.l2.WritebackDirty_hits::total          1360862                       # number of WritebackDirty hits
+system.l2.WritebackDirty_accesses::.writebacks      1349727                       # number of WritebackDirty accesses(hits+misses)
+system.l2.WritebackDirty_accesses::total      1349727                       # number of WritebackDirty accesses(hits+misses)
+system.l2.WritebackDirty_hits::.writebacks      1349727                       # number of WritebackDirty hits
+system.l2.WritebackDirty_hits::total          1349727                       # number of WritebackDirty hits
 system.l2.avg_blocked_cycles::no_mshrs            nan                       # average number of cycles each access was blocked
 system.l2.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
 system.l2.blocked::no_mshrs                         0                       # number of cycles access was blocked
@@ -299,53 +299,53 @@ system.l2.blocked_cycles::no_targets                0                       # nu
 system.l2.demand_accesses::.cpu.inst             2403                       # number of demand (read+write) accesses
 system.l2.demand_accesses::.cpu.data          1740292                       # number of demand (read+write) accesses
 system.l2.demand_accesses::total              1742695                       # number of demand (read+write) accesses
-system.l2.demand_hits::.cpu.inst                  239                       # number of demand (read+write) hits
-system.l2.demand_hits::.cpu.data               853950                       # number of demand (read+write) hits
-system.l2.demand_hits::total                   854189                       # number of demand (read+write) hits
-system.l2.demand_miss_rate::.cpu.inst        0.900541                       # miss rate for demand accesses
-system.l2.demand_miss_rate::.cpu.data        0.509306                       # miss rate for demand accesses
-system.l2.demand_miss_rate::total            0.509846                       # miss rate for demand accesses
-system.l2.demand_misses::.cpu.inst               2164                       # number of demand (read+write) misses
-system.l2.demand_misses::.cpu.data             886342                       # number of demand (read+write) misses
-system.l2.demand_misses::total                 888506                       # number of demand (read+write) misses
+system.l2.demand_hits::.cpu.inst                  230                       # number of demand (read+write) hits
+system.l2.demand_hits::.cpu.data               787485                       # number of demand (read+write) hits
+system.l2.demand_hits::total                   787715                       # number of demand (read+write) hits
+system.l2.demand_miss_rate::.cpu.inst        0.904286                       # miss rate for demand accesses
+system.l2.demand_miss_rate::.cpu.data        0.547498                       # miss rate for demand accesses
+system.l2.demand_miss_rate::total            0.547990                       # miss rate for demand accesses
+system.l2.demand_misses::.cpu.inst               2173                       # number of demand (read+write) misses
+system.l2.demand_misses::.cpu.data             952807                       # number of demand (read+write) misses
+system.l2.demand_misses::total                 954980                       # number of demand (read+write) misses
 system.l2.overall_accesses::.cpu.inst            2403                       # number of overall (read+write) accesses
 system.l2.overall_accesses::.cpu.data         1740292                       # number of overall (read+write) accesses
 system.l2.overall_accesses::total             1742695                       # number of overall (read+write) accesses
-system.l2.overall_hits::.cpu.inst                 239                       # number of overall hits
-system.l2.overall_hits::.cpu.data              853950                       # number of overall hits
-system.l2.overall_hits::total                  854189                       # number of overall hits
-system.l2.overall_miss_rate::.cpu.inst       0.900541                       # miss rate for overall accesses
-system.l2.overall_miss_rate::.cpu.data       0.509306                       # miss rate for overall accesses
-system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
-system.l2.overall_misses::.cpu.inst              2164                       # number of overall misses
-system.l2.overall_misses::.cpu.data            886342                       # number of overall misses
-system.l2.overall_misses::total                888506                       # number of overall misses
+system.l2.overall_hits::.cpu.inst                 230                       # number of overall hits
+system.l2.overall_hits::.cpu.data              787485                       # number of overall hits
+system.l2.overall_hits::total                  787715                       # number of overall hits
+system.l2.overall_miss_rate::.cpu.inst       0.904286                       # miss rate for overall accesses
+system.l2.overall_miss_rate::.cpu.data       0.547498                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.547990                       # miss rate for overall accesses
+system.l2.overall_misses::.cpu.inst              2173                       # number of overall misses
+system.l2.overall_misses::.cpu.data            952807                       # number of overall misses
+system.l2.overall_misses::total                954980                       # number of overall misses
 system.l2.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
-system.l2.replacements                         884272                       # number of replacements
-system.l2.tags.age_task_id_blocks_1024::0            5                       # Occupied blocks per task id
-system.l2.tags.age_task_id_blocks_1024::1          354                       # Occupied blocks per task id
-system.l2.tags.age_task_id_blocks_1024::2         4171                       # Occupied blocks per task id
-system.l2.tags.age_task_id_blocks_1024::3        21814                       # Occupied blocks per task id
-system.l2.tags.age_task_id_blocks_1024::4         6424                       # Occupied blocks per task id
-system.l2.tags.avg_refs                      3.786442                       # Average number of references to valid blocks.
-system.l2.tags.data_accesses                  4400447                       # Number of data accesses
-system.l2.tags.occ_blocks::.writebacks     446.046896                       # Average occupied blocks per requestor
-system.l2.tags.occ_blocks::.cpu.inst        54.314076                       # Average occupied blocks per requestor
-system.l2.tags.occ_blocks::.cpu.data     32074.960640                       # Average occupied blocks per requestor
-system.l2.tags.occ_percent::.writebacks      0.013612                       # Average percentage of cache occupancy
-system.l2.tags.occ_percent::.cpu.inst        0.001658                       # Average percentage of cache occupancy
-system.l2.tags.occ_percent::.cpu.data        0.978850                       # Average percentage of cache occupancy
-system.l2.tags.occ_percent::total            0.994120                       # Average percentage of cache occupancy
-system.l2.tags.occ_task_id_blocks::1024         32768                       # Occupied blocks per task id
+system.l2.replacements                         998283                       # number of replacements
+system.l2.tags.age_task_id_blocks_1024::0           11                       # Occupied blocks per task id
+system.l2.tags.age_task_id_blocks_1024::1          409                       # Occupied blocks per task id
+system.l2.tags.age_task_id_blocks_1024::2         4277                       # Occupied blocks per task id
+system.l2.tags.age_task_id_blocks_1024::3        11334                       # Occupied blocks per task id
+system.l2.tags.age_task_id_blocks_1024::4          353                       # Occupied blocks per task id
+system.l2.tags.avg_refs                      3.413213                       # Average number of references to valid blocks.
+system.l2.tags.data_accesses                  4498074                       # Number of data accesses
+system.l2.tags.occ_blocks::.writebacks     485.406547                       # Average occupied blocks per requestor
+system.l2.tags.occ_blocks::.cpu.inst        36.259370                       # Average occupied blocks per requestor
+system.l2.tags.occ_blocks::.cpu.data     15772.294816                       # Average occupied blocks per requestor
+system.l2.tags.occ_percent::.writebacks      0.029627                       # Average percentage of cache occupancy
+system.l2.tags.occ_percent::.cpu.inst        0.002213                       # Average percentage of cache occupancy
+system.l2.tags.occ_percent::.cpu.data        0.962664                       # Average percentage of cache occupancy
+system.l2.tags.occ_percent::total            0.994504                       # Average percentage of cache occupancy
+system.l2.tags.occ_task_id_blocks::1024         16384                       # Occupied blocks per task id
 system.l2.tags.occ_task_id_percent::1024            1                       # Percentage of cache occupancy per task id
 system.l2.tags.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
-system.l2.tags.sampled_refs                    917040                       # Sample count of references to valid blocks.
-system.l2.tags.tag_accesses                   4400447                       # Number of tag accesses
-system.l2.tags.tagsinuse                 32575.321612                       # Cycle average of tags in use
-system.l2.tags.total_refs                     3472319                       # Total number of references to valid blocks.
+system.l2.tags.sampled_refs                   1014667                       # Sample count of references to valid blocks.
+system.l2.tags.tag_accesses                   4498074                       # Number of tag accesses
+system.l2.tags.tagsinuse                 16293.960733                       # Cycle average of tags in use
+system.l2.tags.total_refs                     3463275                       # Total number of references to valid blocks.
 system.l2.tags.warmup_cycle                         0                       # Cycle when the warmup percentage was hit.
-system.l2.writebacks::.writebacks              564121                       # number of writebacks
-system.l2.writebacks::total                    564121                       # number of writebacks
+system.l2.writebacks::.writebacks              626010                       # number of writebacks
+system.l2.writebacks::total                    626010                       # number of writebacks
 system.mem_ctrls.avgBusLat                        nan                       # Average bus latency per DRAM burst
 system.mem_ctrls.avgGap                           nan                       # Average gap between requests
 system.mem_ctrls.avgMemAccLat                     nan                       # Average memory access latency per DRAM burst
@@ -359,29 +359,29 @@ system.mem_ctrls.avgWrQLen                       0.00                       # Av
 system.mem_ctrls.busUtil                         0.00                       # Data bus utilization in percentage
 system.mem_ctrls.busUtilRead                     0.00                       # Data bus utilization in percentage for reads
 system.mem_ctrls.busUtilWrite                    0.00                       # Data bus utilization in percentage for writes
-system.mem_ctrls.bw_inst_read::.cpu.inst       411811                       # Instruction read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_inst_read::total           411811                       # Instruction read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_read::.cpu.inst            411811                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_read::.cpu.data         168671766                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_read::total             169083578                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_total::.writebacks      107352789                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_total::.cpu.inst           411811                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_total::.cpu.data        168671766                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_total::total            276436366                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_write::.writebacks      107352789                       # Write bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_write::total            107352789                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_inst_read::.cpu.inst       413524                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_inst_read::total           413524                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.cpu.inst            413524                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::.cpu.data         181320122                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total             181733646                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::.writebacks      119130327                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.cpu.inst           413524                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::.cpu.data        181320122                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total            300863973                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_write::.writebacks      119130327                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total            119130327                       # Write bandwidth from this memory (bytes/s)
 system.mem_ctrls.bytesReadDRAM                      0                       # Total number of bytes read from DRAM
 system.mem_ctrls.bytesReadSys                       0                       # Total read bytes from the system interface side
 system.mem_ctrls.bytesReadWrQ                       0                       # Total number of bytes read from write queue
 system.mem_ctrls.bytesWritten                       0                       # Total number of bytes written to DRAM
 system.mem_ctrls.bytesWrittenSys                    0                       # Total written bytes from the system interface side
-system.mem_ctrls.bytes_inst_read::.cpu.inst        34624                       # Number of instructions bytes read from this memory
-system.mem_ctrls.bytes_inst_read::total         34624                       # Number of instructions bytes read from this memory
-system.mem_ctrls.bytes_read::.cpu.inst          34624                       # Number of bytes read from this memory
-system.mem_ctrls.bytes_read::.cpu.data       14181472                       # Number of bytes read from this memory
-system.mem_ctrls.bytes_read::total           14216096                       # Number of bytes read from this memory
-system.mem_ctrls.bytes_written::.writebacks      9025936                       # Number of bytes written to this memory
-system.mem_ctrls.bytes_written::total         9025936                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_inst_read::.cpu.inst        34768                       # Number of instructions bytes read from this memory
+system.mem_ctrls.bytes_inst_read::total         34768                       # Number of instructions bytes read from this memory
+system.mem_ctrls.bytes_read::.cpu.inst          34768                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::.cpu.data       15244912                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total           15279680                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_written::.writebacks     10016160                       # Number of bytes written to this memory
+system.mem_ctrls.bytes_written::total        10016160                       # Number of bytes written to this memory
 system.mem_ctrls.mergedWrBursts                     0                       # Number of DRAM write bursts merged with an existing one
 system.mem_ctrls.neitherReadNorWriteReqs            0                       # Number of requests that are neither read nor write
 system.mem_ctrls.numRdRetry                         0                       # Number of times read queue was full causing retry
@@ -390,11 +390,11 @@ system.mem_ctrls.numStayReadState                   0                       # Nu
 system.mem_ctrls.numStayWriteState                  0                       # Number of times bus staying in WRITE state
 system.mem_ctrls.numWrRetry                         0                       # Number of times write queue was full causing retry
 system.mem_ctrls.numWriteReadTurnArounds            0                       # Number of turnarounds from WRITE to READ
-system.mem_ctrls.num_reads::.cpu.inst            2164                       # Number of read requests responded to by this memory
-system.mem_ctrls.num_reads::.cpu.data          886342                       # Number of read requests responded to by this memory
-system.mem_ctrls.num_reads::total              888506                       # Number of read requests responded to by this memory
-system.mem_ctrls.num_writes::.writebacks       564121                       # Number of write requests responded to by this memory
-system.mem_ctrls.num_writes::total             564121                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_reads::.cpu.inst            2173                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::.cpu.data          952807                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total              954980                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_writes::.writebacks       626010                       # Number of write requests responded to by this memory
+system.mem_ctrls.num_writes::total             626010                       # Number of write requests responded to by this memory
 system.mem_ctrls.pageHitRate                      nan                       # Row buffer hit rate, read and write combined
 system.mem_ctrls.peakBW                      12800.00                       # Theoretical peak bandwidth in MiByte/s
 system.mem_ctrls.perBankRdBursts::0                 0                       # Per bank write bursts
@@ -593,70 +593,70 @@ system.mem_ctrls_1.selfRefreshEnergy                0                       # En
 system.mem_ctrls_1.totalEnergy            32285695680                       # Total energy per rank (pJ)
 system.mem_ctrls_1.totalIdleTime                    0                       # Total Idle time Per DRAM Rank
 system.mem_ctrls_1.writeEnergy                      0                       # Energy for write commands per rank (pJ)
-system.membus.pkt_count_system.l2.mem_side::system.mem_ctrls.port      2631776                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.l2.mem_side::total      2631776                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count::total                2631776                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_size_system.l2.mem_side::system.mem_ctrls.port     23242032                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.l2.mem_side::total     23242032                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size::total                23242032                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_count_system.l2.mem_side::system.mem_ctrls.port      2847569                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.l2.mem_side::total      2847569                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                2847569                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.l2.mem_side::system.mem_ctrls.port     25295840                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.l2.mem_side::total     25295840                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                25295840                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
 system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
-system.membus.snoop_fanout::samples            888506                       # Request fanout histogram
+system.membus.snoop_fanout::samples            954980                       # Request fanout histogram
 system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
 system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
 system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
-system.membus.snoop_fanout::0                  888506    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::0                  954980    100.00%    100.00% # Request fanout histogram
 system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
 system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
 system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
 system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
-system.membus.snoop_fanout::total              888506                       # Request fanout histogram
+system.membus.snoop_fanout::total              954980                       # Request fanout histogram
 system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
 system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
-system.membus.snoop_filter.hit_single_requests       854764                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_single_requests       937609                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
 system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
-system.membus.snoop_filter.tot_requests       1743270                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.tot_requests       1892589                       # Total number of requests made to the snoop filter.
 system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
 system.membus.snoops                                0                       # Total snoops (count)
-system.membus.trans_dist::ReadResp             402145                       # Transaction distribution
-system.membus.trans_dist::WritebackDirty       564121                       # Transaction distribution
-system.membus.trans_dist::CleanEvict           290643                       # Transaction distribution
-system.membus.trans_dist::ReadExReq            486361                       # Transaction distribution
-system.membus.trans_dist::ReadExResp           486361                       # Transaction distribution
-system.membus.trans_dist::ReadSharedReq        402145                       # Transaction distribution
+system.membus.trans_dist::ReadResp             449245                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty       626010                       # Transaction distribution
+system.membus.trans_dist::CleanEvict           311599                       # Transaction distribution
+system.membus.trans_dist::ReadExReq            505735                       # Transaction distribution
+system.membus.trans_dist::ReadExResp           505735                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq        449245                       # Transaction distribution
 system.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
 system.tol2bus.pkt_count_system.cpu.icache.mem_side::system.l2.cpu_side         6250                       # Packet count per connected master and slave (bytes)
 system.tol2bus.pkt_count_system.cpu.dcache.mem_side::system.l2.cpu_side      5219852                       # Packet count per connected master and slave (bytes)
 system.tol2bus.pkt_count::total               5226102                       # Packet count per connected master and slave (bytes)
 system.tol2bus.pkt_size_system.cpu.icache.mem_side::system.l2.cpu_side        61552                       # Cumulative packet size per connected master and slave (bytes)
-system.tol2bus.pkt_size_system.cpu.dcache.mem_side::system.l2.cpu_side     49618464                       # Cumulative packet size per connected master and slave (bytes)
-system.tol2bus.pkt_size::total               49680016                       # Cumulative packet size per connected master and slave (bytes)
+system.tol2bus.pkt_size_system.cpu.dcache.mem_side::system.l2.cpu_side     49440304                       # Cumulative packet size per connected master and slave (bytes)
+system.tol2bus.pkt_size::total               49501856                       # Cumulative packet size per connected master and slave (bytes)
 system.tol2bus.pwrStateResidencyTicks::UNDEFINED  84077331500                       # Cumulative time (in ticks) in various power states
-system.tol2bus.snoopTraffic                   9025936                       # Total snoop traffic (bytes)
-system.tol2bus.snoop_fanout::samples          2626967                       # Request fanout histogram
-system.tol2bus.snoop_fanout::mean            0.015454                       # Request fanout histogram
-system.tol2bus.snoop_fanout::stdev           0.123348                       # Request fanout histogram
+system.tol2bus.snoopTraffic                  10016160                       # Total snoop traffic (bytes)
+system.tol2bus.snoop_fanout::samples          2740978                       # Request fanout histogram
+system.tol2bus.snoop_fanout::mean            0.029481                       # Request fanout histogram
+system.tol2bus.snoop_fanout::stdev           0.169150                       # Request fanout histogram
 system.tol2bus.snoop_fanout::underflows             0      0.00%      0.00% # Request fanout histogram
-system.tol2bus.snoop_fanout::0                2586371     98.45%     98.45% # Request fanout histogram
-system.tol2bus.snoop_fanout::1                  40596      1.55%    100.00% # Request fanout histogram
+system.tol2bus.snoop_fanout::0                2660172     97.05%     97.05% # Request fanout histogram
+system.tol2bus.snoop_fanout::1                  80806      2.95%    100.00% # Request fanout histogram
 system.tol2bus.snoop_fanout::2                      0      0.00%    100.00% # Request fanout histogram
 system.tol2bus.snoop_fanout::3                      0      0.00%    100.00% # Request fanout histogram
 system.tol2bus.snoop_fanout::4                      0      0.00%    100.00% # Request fanout histogram
 system.tol2bus.snoop_fanout::overflows              0      0.00%    100.00% # Request fanout histogram
 system.tol2bus.snoop_fanout::min_value              0                       # Request fanout histogram
 system.tol2bus.snoop_fanout::max_value              1                       # Request fanout histogram
-system.tol2bus.snoop_fanout::total            2626967                       # Request fanout histogram
+system.tol2bus.snoop_fanout::total            2740978                       # Request fanout histogram
 system.tol2bus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
 system.tol2bus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
 system.tol2bus.snoop_filter.hit_single_requests      1740712                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
-system.tol2bus.snoop_filter.hit_single_snoops        40596                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.tol2bus.snoop_filter.hit_single_snoops        80806                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
 system.tol2bus.snoop_filter.tot_requests      3483407                       # Total number of requests made to the snoop filter.
-system.tol2bus.snoop_filter.tot_snoops          40596                       # Total number of snoops made to the snoop filter.
-system.tol2bus.snoops                          884272                       # Total snoops (count)
+system.tol2bus.snoop_filter.tot_snoops          80806                       # Total number of snoops made to the snoop filter.
+system.tol2bus.snoops                          998283                       # Total snoops (count)
 system.tol2bus.trans_dist::ReadResp           1079991                       # Transaction distribution
-system.tol2bus.trans_dist::WritebackDirty      1360862                       # Transaction distribution
+system.tol2bus.trans_dist::WritebackDirty      1349727                       # Transaction distribution
 system.tol2bus.trans_dist::WritebackClean         1444                       # Transaction distribution
-system.tol2bus.trans_dist::CleanEvict          378406                       # Transaction distribution
+system.tol2bus.trans_dist::CleanEvict          389541                       # Transaction distribution
 system.tol2bus.trans_dist::ReadExReq           662704                       # Transaction distribution
 system.tol2bus.trans_dist::ReadExResp          662704                       # Transaction distribution
 system.tol2bus.trans_dist::ReadCleanReq          2403                       # Transaction distribution
