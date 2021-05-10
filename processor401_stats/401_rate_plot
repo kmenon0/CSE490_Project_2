@@ -1,0 +1,175 @@
+
+ l1dcache_size_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l1dcache_size_5:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.024764                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.576274                       # miss rate for overall accesses
+
+ l1dcache_size_6:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.022166                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.641117                       # miss rate for overall accesses
+
+ l1dcache_size_7:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.019650                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.717042                       # miss rate for overall accesses
+
+ l1dcache_size_8:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.015540                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.881334                       # miss rate for overall accesses
+
+ l1icache_size_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l1icache_size_5:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000016                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509842                       # miss rate for overall accesses
+
+ l1icache_size_6:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000016                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509837                       # miss rate for overall accesses
+
+ l1icache_size_7:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000016                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509841                       # miss rate for overall accesses
+
+ l1icache_size_8:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000015                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509839                       # miss rate for overall accesses
+
+ l2cache_size_0:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.547990                       # miss rate for overall accesses
+
+ l2cache_size_1:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l2cache_size_2:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.472940                       # miss rate for overall accesses
+
+ l2cache_size_3:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.423980                       # miss rate for overall accesses
+
+ l2cache_size_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.353475                       # miss rate for overall accesses
+
+ l1dassoc_0:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l1dassoc_1:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.025117                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.568890                       # miss rate for overall accesses
+
+ l1dassoc_2:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.023525                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.606904                       # miss rate for overall accesses
+
+ l1dassoc_3:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.022701                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.628682                       # miss rate for overall accesses
+
+ l1dassoc_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.022226                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.641941                       # miss rate for overall accesses
+
+ l1iassoc_0:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l1iassoc_1:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000017                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509862                       # miss rate for overall accesses
+
+ l1iassoc_2:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000016                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509879                       # miss rate for overall accesses
+
+ l1iassoc_3:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000016                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509896                       # miss rate for overall accesses
+
+ l1iassoc_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000015                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509901                       # miss rate for overall accesses
+
+ l2assoc_0:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ l2assoc_1:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.493444                       # miss rate for overall accesses
+
+ l2assoc_2:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.491698                       # miss rate for overall accesses
+
+ l2assoc_3:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.490746                       # miss rate for overall accesses
+
+ l2assoc_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.490651                       # miss rate for overall accesses
+
+ block_size_4:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028078                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000018                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.509846                       # miss rate for overall accesses
+
+ block_size_5:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.024099                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000010                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.362449                       # miss rate for overall accesses
+
+ block_size_6:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.023631                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000006                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.255213                       # miss rate for overall accesses
+
+ block_size_7:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.025111                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000004                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.197164                       # miss rate for overall accesses
+
+ block_size_8:--------------------------
+system.cpu.dcache.overall_miss_rate::total     0.028225                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000003                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.171278                       # miss rate for overall accesses
