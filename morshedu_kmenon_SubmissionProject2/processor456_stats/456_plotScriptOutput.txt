@@ -1,0 +1,175 @@
+
+ l1dcache_size_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l1dcache_size_5:--------------------------
+system.cpu.dcache.overall_misses::total        490013                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27546                       # number of overall misses
+
+ l1dcache_size_6:--------------------------
+system.cpu.dcache.overall_misses::total        358989                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 25841                       # number of overall misses
+
+ l1dcache_size_7:--------------------------
+system.cpu.dcache.overall_misses::total        190309                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 23735                       # number of overall misses
+
+ l1dcache_size_8:--------------------------
+system.cpu.dcache.overall_misses::total         33482                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 23469                       # number of overall misses
+
+ l1icache_size_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l1icache_size_5:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         16807                       # number of overall misses
+system.l2.overall_misses::total                 27504                       # number of overall misses
+
+ l1icache_size_6:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         12764                       # number of overall misses
+system.l2.overall_misses::total                 25564                       # number of overall misses
+
+ l1icache_size_7:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total          7277                       # number of overall misses
+system.l2.overall_misses::total                 24240                       # number of overall misses
+
+ l1icache_size_8:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total          7207                       # number of overall misses
+system.l2.overall_misses::total                 24233                       # number of overall misses
+
+ l2cache_size_0:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 33342                       # number of overall misses
+
+ l2cache_size_1:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l2cache_size_2:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 23213                       # number of overall misses
+
+ l2cache_size_3:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 22084                       # number of overall misses
+
+ l2cache_size_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 22084                       # number of overall misses
+
+ l1dassoc_0:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l1dassoc_1:--------------------------
+system.cpu.dcache.overall_misses::total        456584                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27389                       # number of overall misses
+
+ l1dassoc_2:--------------------------
+system.cpu.dcache.overall_misses::total        433709                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 26991                       # number of overall misses
+
+ l1dassoc_3:--------------------------
+system.cpu.dcache.overall_misses::total        431632                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 26977                       # number of overall misses
+
+ l1dassoc_4:--------------------------
+system.cpu.dcache.overall_misses::total        431706                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 26978                       # number of overall misses
+
+ l1iassoc_0:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l1iassoc_1:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         10194                       # number of overall misses
+system.l2.overall_misses::total                 25535                       # number of overall misses
+
+ l1iassoc_2:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total          5658                       # number of overall misses
+system.l2.overall_misses::total                 23992                       # number of overall misses
+
+ l1iassoc_3:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total          5008                       # number of overall misses
+system.l2.overall_misses::total                 23706                       # number of overall misses
+
+ l1iassoc_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total          4902                       # number of overall misses
+system.l2.overall_misses::total                 23668                       # number of overall misses
+
+ l2assoc_0:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ l2assoc_1:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 23857                       # number of overall misses
+
+ l2assoc_2:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 22092                       # number of overall misses
+
+ l2assoc_3:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 22084                       # number of overall misses
+
+ l2assoc_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 22084                       # number of overall misses
+
+ block_size_4:--------------------------
+system.cpu.dcache.overall_misses::total        678022                       # number of overall misses
+system.cpu.icache.overall_misses::total         25530                       # number of overall misses
+system.l2.overall_misses::total                 27945                       # number of overall misses
+
+ block_size_5:--------------------------
+system.cpu.dcache.overall_misses::total        554661                       # number of overall misses
+system.cpu.icache.overall_misses::total         16474                       # number of overall misses
+system.l2.overall_misses::total                 15011                       # number of overall misses
+
+ block_size_6:--------------------------
+system.cpu.dcache.overall_misses::total        574821                       # number of overall misses
+system.cpu.icache.overall_misses::total         13152                       # number of overall misses
+system.l2.overall_misses::total                  8462                       # number of overall misses
+
+ block_size_7:--------------------------
+system.cpu.dcache.overall_misses::total        780628                       # number of overall misses
+system.cpu.icache.overall_misses::total         10118                       # number of overall misses
+system.l2.overall_misses::total                  5053                       # number of overall misses
+
+ block_size_8:--------------------------
+system.cpu.dcache.overall_misses::total       1028887                       # number of overall misses
+system.cpu.icache.overall_misses::total          8844                       # number of overall misses
+system.l2.overall_misses::total                  3605                       # number of overall misses
